@@ -1,5 +1,6 @@
 {
   "name": "be",
+  "type": "module",
   "version": "1.0.0",
   "description": "be",
   "main": "index.js",
