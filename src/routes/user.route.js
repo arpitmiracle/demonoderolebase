@@ -4,7 +4,7 @@ import {
   getAllUser,
   getUser,
   updateUserProfile,
-} from "../controllers/user.controller";
+} from "../controllers/user.controller.js";
 import { userTypes } from "../../constants";
 import { checkToken } from "../config/middleware";
 const userRoute = express.Router();
