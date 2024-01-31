@@ -1,9 +1,9 @@
 import jwt from "jsonwebtoken";
-import { statusCodes } from "../../constants";
-import UserModel from "../models/user";
+import { statusCodes } from "../../constants.js";
+import UserModel from "../models/user.js";
 
 import bcrypt from "bcrypt";
-import { checkUserExists, getUserByEmail } from "./user.controller";
+import { checkUserExists, getUserByEmail } from "./user.controller.js";
 
 const saltRounds = 10;
 

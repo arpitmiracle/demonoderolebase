@@ -5,8 +5,8 @@ import {
   getUser,
   updateUserProfile,
 } from "../controllers/user.controller.js";
-import { userTypes } from "../../constants";
-import { checkToken } from "../config/middleware";
+import { userTypes } from "../../constants.js";
+import { checkToken } from "../config/middleware.js";
 const userRoute = express.Router();
 
 userRoute.get(

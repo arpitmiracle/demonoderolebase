@@ -1,5 +1,5 @@
-import { statusCodes } from "../../constants";
-import UserModel from "../models/user";
+import { statusCodes } from "../../constants.js";
+import UserModel from "../models/user.js";
 
 export async function getUser(req, res) {
   try {
